@@ -71,6 +71,12 @@ h2 {
     
 }
 
+/* New Games and Favourite Games CSS */
+#new-games-section .card,
+#favourite-games-section .card {
+    border-color: transparent;
+}
+
 /* grid visualisation CSS for testing */
 
 /* .container,
