@@ -44,6 +44,35 @@ h2 {
     margin-bottom: 2rem;
 }
 
+/* Custom button */
+
+.custom-button-fill {
+    border-color: var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: #ffff;
+}
+
+.custom-button-fill:hover {
+    border-color: var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: #ffff;
+} 
+
+.custom-button-outline {
+    border-color: var(--highlight-color);
+    border-width: 2px;
+    background-color: transparent;
+    color: var(--highlight-color);
+    padding: 7px 25px;
+}
+
+.custom-button-outline:hover {
+    border-color: var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: #ffff;
+    padding: 7px 25px;
+}
+
 /* Navbar CSS */
 #navbar {
     background-color:var(--primary-color);
