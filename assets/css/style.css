@@ -126,8 +126,8 @@ h2 {
 .col-12 {
     border: 2px solid white;
     background-color: lightgray;
-}/*
-
+} */
+ 
 /* Media Query for tablets (768px) and up */
 @media screen and (min-width: 768px) {
     /* Make service cards all the same height for consistency */
