@@ -48,13 +48,11 @@ h2 {
 /* Custom button */
 
 .custom-button-fill {
-    border-color: var(--highlight-color);
     background-color: var(--highlight-color);
     color: #ffff;
 }
 
 .custom-button-fill:hover {
-    border-color: var(--secondary-color);
     background-color: var(--secondary-color);
     color: #ffff;
 } 
@@ -68,7 +66,6 @@ h2 {
 }
 
 .custom-button-outline:hover {
-    border-color: var(--highlight-color);
     background-color: var(--highlight-color);
     color: #ffff;
     padding: 7px 25px;
@@ -142,6 +139,8 @@ h2 {
 #contact-section .social-links i {
     color: var(--highlight-color-light);
     font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
@@ -214,3 +213,5 @@ h2 {
     #events .table {
         font-size: medium;
     }
+
+}
