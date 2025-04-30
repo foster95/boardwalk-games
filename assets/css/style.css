@@ -97,7 +97,16 @@ h2 {
 
 #services .card {
     margin-bottom: 1.5rem;
-    
+}
+
+/* Events CSS */
+
+#events .text-box {
+    text-align: center;
+    background-color: var(--highlight-color);
+    color: white;
+    padding: 0.5%;
+    font-weight: bold;
 }
 
 /* New Games and Favourite Games CSS */
@@ -155,8 +164,9 @@ h2 {
 .col-12 {
     border: 2px solid white;
     background-color: lightgray;
-} */
- 
+}
+ */
+
 /* Media Query for tablets (768px) and up */
 @media screen and (min-width: 768px) {
     /* Make service cards all the same height for consistency */
@@ -188,3 +198,18 @@ h2 {
         min-height: 195px;
     }
 }
+
+/* Media Query for mobile screens (320px) and up */
+@media screen and (min-width: 320px) {
+    /* Make table wrap on mobile screens */
+    #events .table {
+        font-size: small;
+    }
+}
+
+/* Media Query for mobile screens (768px) and up */
+@media screen and (min-width: 768px) {
+    /* Make table wrap on mobile screens */
+    #events .table {
+        font-size: medium;
+    }
