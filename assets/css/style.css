@@ -18,7 +18,7 @@
 body {
     font-family:var(--primary-font);
     /* Pushes navbar to top at all times so it does not cover any content */
-    padding: 57.65px;
+    padding-top: 57.65px;
 }
 
 h1,
